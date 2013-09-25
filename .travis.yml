@@ -11,6 +11,6 @@ install:
   - "pip install ./src/metriqued --use-mirrors"
   - "pip install ./src/metriquec --use-mirrors"
 # command to run tests
-script: nosetests
+script: 
   - "python -m pytest src/metriqueu"
   - "python -m pytest src/metrique"
